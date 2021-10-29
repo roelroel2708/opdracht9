@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>complex form</h1>
+    <a href="index.html">home</a>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>
+                Your name: <input type="text" name="name">
+            </label>
+        </p>
+        <p>
+            <label>
+                Your email: <input type="text" name="email">
+            </label>
+        </p>
+        <p>
+            <label> Your telephonen number: <input type="text" name="telephonenumber">
+
+            </label>
+        </p>
+        <p>
+            <label>
+                Your age: <input type="text" name="age">
+            </label>
+        </p>
+        <p>
+            <label>
+                Date: <input type="date" name="date">
+            </label>
+        </p>
+        <p>
+            <label>
+                <p>
+                    Select your gender:
+                </p>
+                <input type="radio" name="gender">
+                <label>
+                    male
+                </label>
+                <br>
+                <input type="radio" name="gender">
+                <label>
+                    female
+                </label>
+            </label>
+        </p>
+        <p>
+            <label for="favorite">
+                Select favorite cuisine:
+                <br>
+                <label for="favorite1">
+                    <input type="checkbox" name="favorite1" value="French">
+                    French
+                </label>
+                <br>
+                <input type="checkbox" name="favorite2" value="Italian">
+                <label for="Italian">
+                    Italian
+                </label>
+                <br>
+                <input type="checkbox" name="favorite3" id="favorite3" value="Spanish">
+                <label for="favorite3">
+                    Spanish
+                </label>
+                <br>
+                <input type="checkbox" name="favorite4" id="favorite4" value="Arabic">
+                <label for="favorite4">
+                    Arabic
+                </label>
+            </label>
+        </p>
+        <p>
+            <label for="color_pick">
+                <input type="color" name="color_pick " id="color_pick">
+            </label>
+        </p>
+        <p>
+            <label for="biography">
+                Biography: <br>
+                <textarea name="biography" id="" cols="30" rows="10"></textarea>
+            </label>
+        </p>
+        <p>
+            <label for="reset_button">
+                <input type="reset" value="Reset">
+            </label>
+        </p>
+
+        <p>
+            <label for="button_submit">
+                <input type="submit" value="Submit">
+            </label>
+        </p>
+    </form>
+</body>
+
+</html>

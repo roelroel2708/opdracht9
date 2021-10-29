@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(190, 190, 101);
+    border: 3px black solid;
+    border-radius: 2%;
+    padding: 5px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 5px;
+    background-color: red;
+    border-radius: 2%;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    border: olive solid 3px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2%;
+    font-size: 30px;
+}
+
+li {
+    display: inline;
+    border-radius: 2%;
+}
+
+img {
+    border: rgb(24, 17, 133) solid 3px;
+    padding: 10px;
+    background-color: purple;
+    border-radius: 2%;
+}
+
+header {
+    border: solid goldenrod 3px;
+    border-radius: 2%;
+}
+
+main {
+    border: royalblue solid 3px;
+    border-radius: 2%;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+footer {
+    padding: 5px;
+    background-color: rgb(7, 23, 109);
+    margin-top: 5px;
+    border: solid 3px rgb(119, 204, 8);
+    border-radius: 10%;
+    color: bisque;
+}
+
+nav {
+    background-color: grey;
+
+}
+
+input {
+    background-color: rgb(20, 205, 230);
+    color: rgb(60, 82, 11);
+    border: chocolate solid 3px;
+    border-radius: 15%;
+}
+
+button {
+    background-color: rgb(18, 230, 18);
+    color: blue;
+    font-size: 23px;
+    border-radius: 10%;
+}
+
+@media(min-width: 600px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        background-color: beige;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        background-color: red;
+    }
+}
